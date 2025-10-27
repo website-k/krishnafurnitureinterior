@@ -1,17 +1,21 @@
 {
   "name": "vite-react-typescript-starter",
-"homepage": "https://website-k.github.io/krishna_furniture_interior",
+"homepage": "https://website-k.github.io/krishnafurnitureinterior",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+  //   "dev": "vite",
+  //   "build": "vite build",
+  //   "lint": "eslint .",
+  //     "predeploy": "npm run build",
+  // "deploy": "gh-pages -d build",
+  //   "preview": "vite preview",
+  //   "typecheck": "tsc --noEmit -p tsconfig.app.json"
     "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-      "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-    "preview": "vite preview",
-    "typecheck": "tsc --noEmit -p tsconfig.app.json"
+  "build": "vite build",
+  "preview": "vite preview",
+  "test": "vitest"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
