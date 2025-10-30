@@ -101,7 +101,7 @@ const About = () => {
             </div>
 
             <div className="space-y-6">
-              <h2 className="text-4xl font-bold text-gray-900">Crafting Excellence Since 2009</h2>
+              <h2 className="text-4xl font-bold text-gray-900">Crafting Excellence Since 1990</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
                   Krishna Furniture began with a simple vision: to create beautiful, lasting furniture that enhances the spaces where people live and work. Over the years, we've grown from a small workshop into a trusted name in custom furniture manufacturing.

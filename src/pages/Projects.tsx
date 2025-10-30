@@ -1,8 +1,17 @@
 import { useState, useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { Calendar, Tag } from 'lucide-react';
-// import LivingRoomImg from '../Image/1000345722.jpg';
+// import { Calendar, Tag } from 'lucide-react';
+
+import LivingRoomImg from '../Image/living room.jpg';
+import OfficeImg from '../Image/office.jpg';
+import DoorImg from '../Image/door.png';
+import SofaImg from '../Image/sofa.webp';
+import BedroomImg from '../Image/1000345714.jpg';
+import ProjectImg1 from '../Image/1000345716.jpg';
+import ResidenceImg from '../Image/Residence.jpg';
+import WardrobeImg from '../Image/wardrode.jpg';
+import LivingWebp from '../Image/living.webp';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -19,69 +28,51 @@ const Projects = () => {
   const galleryRef = useRef<HTMLDivElement>(null);
 
   const projects: Project[] = [
-    {
+  {
       id: 1,
       title: 'Modern Living Room Set',
-      // description: 'Complete living room furniture including sofa, center table, and side tables with contemporary design',
-      // category: 'Sofa Sets & Beds',
-      image: '/src/Image/living room.jpg',
+      image: LivingRoomImg,
     },
     {
       id: 2,
       title: 'Custom Office Workstation',
-      // description: 'Ergonomic office furniture with built-in storage and cable management',
-      // category: 'Home & Office Furniture',
-      image: '/src/Image/office.jpg',
+      image: OfficeImg,
     },
     {
       id: 3,
       title: 'Carved Entrance Door',
-      // description: 'Hand-crafted bedroom set with wardrobe, bed frame, and side tables',
-      // category: 'Sofa Sets & Beds',
-      image: '/src/Image/door.png',
+      image: DoorImg,
     },
     {
       id: 4,
-      title: 'Sofa Sets',
-      // description: 'Hand-crafted bedroom set with wardrobe, bed frame, and side tables',
-      // category: 'Cupboards & Cabinets',
-      image: '/src/Image/1000345716.jpg',
+      title: 'Contemporary Sofa Set',
+      image: SofaImg,
     },
     {
       id: 5,
-      title: 'Bedroom',
-      // description: 'Eight-seater dining table with matching chairs in solid wood',
-      // category: 'Dining & Study Tables',
-      image: '/src/Image/1000345714.jpg',
+      title: 'Classic Bedroom',
+      image: BedroomImg,
     },
     {
       id: 6,
-      title: 'Carved Entrance Door',
-      // description: 'Handcrafted wooden door with intricate traditional carvings',
-      // category: 'Wood Carving & Design',
-      image: '/src/Image/Residence.jpg',
+      title: 'Luxury Residence Design',
+      image: ResidenceImg,
     },
     {
       id: 7,
-      title: 'Sofa Sets',
-      // description: 'Premium office furniture set with desk, bookshelf, and seating',
-      // category: 'Home & Office Furniture',
-      image: '/src/Image/sofa.webp',
+      title: 'Compact Living Hall',
+      image: LivingWebp,
     },
     {
       id: 8,
-      title: ' Cupboards with Wood Doors',
-      // description: 'Modern study table with ergonomic chair and built-in storage',
-      // category: 'Dining & Study Tables',
-      image: '/src/Image/wardrode.jpg',
+      title: 'Cupboards with Wooden Doors',
+      image: WardrobeImg,
     },
     {
       id: 9,
-      title: 'Hall',
-      // description: 'Space-efficient wardrobe with customizable compartments',
-      // category: 'Modular Furniture Solutions',
-      image: '/src/Image/living.webp',
-    }
+      title: 'Modern Dining Room',
+      image: ProjectImg1,
+    },
   ];
 
   // const categories = ['All', ...Array.from(new Set(projects.map(p => p.category)))];

@@ -91,9 +91,9 @@ const Home = () => {
   ];
 
   const stats = [
-    { number: '500+', label: 'Projects Completed' },
-    { number: '15+', label: 'Years Experience' },
-    { number: '300+', label: 'Happy Clients' },
+    { number: '5000+', label: 'Projects Completed' },
+    { number: '35+', label: 'Years Experience' },
+    { number: '4000+', label: 'Happy Clients' },
     { number: '100%', label: 'Satisfaction Rate' }
   ];
 
